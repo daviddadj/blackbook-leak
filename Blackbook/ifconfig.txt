@@ -1,0 +1,24 @@
+nameserver 8.8.8.8
+nameserver 8.8.4.4
+
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:9207073 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:9207073 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:10619596163 (9.8 GiB)  TX bytes:10619596163 (9.8 GiB)
+
+venet0    Link encap:UNSPEC  HWaddr 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  
+          inet addr:127.0.0.2  P-t-P:127.0.0.2  Bcast:0.0.0.0  Mask:255.255.255.255
+          UP BROADCAST POINTOPOINT RUNNING NOARP  MTU:1500  Metric:1
+          RX packets:8644803 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:10519236 errors:0 dropped:2 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:4171023935 (3.8 GiB)  TX bytes:9833642989 (9.1 GiB)
+
+venet0:0  Link encap:UNSPEC  HWaddr 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  
+          inet addr:87.121.52.124  P-t-P:87.121.52.124  Bcast:87.121.52.124  Mask:255.255.255.255
+          UP BROADCAST POINTOPOINT RUNNING NOARP  MTU:1500  Metric:1

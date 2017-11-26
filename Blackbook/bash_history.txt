@@ -1,0 +1,125 @@
+adduser blackbook
+apt-get update
+apt-get install sudo
+usermod -a -G sudo blackbook
+apt-get install aptitude
+aptitude update
+aptitude safe-upgrade
+aptitude install apache2 apache2-doc
+aptitude install mysql-server php5-mysql
+sudo mysql_secure_installation
+ aptitude install php5-common libapache2-mod-php5 php5-cli
+service apache2 restart
+sudo a2enmod rewrite
+systemctl restart apache2
+nano /etc/apache2/sites-available/000-default.conf
+apt-get install nano zip unzip
+nano /etc/apache2/sites-available/000-default.conf
+sudo systemctl restart apache2
+nano /var/www/html/.htaccess
+cd /var/www/html
+unzip PF
+unzip PF*
+apt-get install php5-gd && sudo service apache2 restart
+chown www-data:www-data /var/www/html
+chown 777 file/attachment
+chown www-data:www-data /var/www/html
+chmod 0777 file/attachment
+chown -R  www-data:www-data /var/www/html
+mysql -u root -p
+chown root:root /var/www/html/include/setting/server.sett.php
+chown -r root:root /var/www/html/file
+chown -R root:root /var/www/html/file
+chown -R www-data:www-data /var/www/html/file
+rm -fr /var/www/html
+mkdir /var/www/html/
+apt-get update
+apt-get upgrade
+apt-get install tor
+service tor stop
+nano /etc/tor/torrc
+service tor restart
+service tor status
+cd /var
+ls
+cd lib
+ls
+cd tor
+ls
+cd blackbook
+nano hostname
+mysql -u root -p
+mysql -u root -p
+mysql -u root -p
+service tor restart
+service apache2 restart
+nano /etc/apt/sources.list
+cd /root
+wget http://www.webmin.com/jcameron-key.asc
+apt-key add jcameron-key.asc
+apt-get update
+apt-get install apt-transport-https
+apt-get install webmin
+service apache2 restart
+service apache2 restart
+sudo service apache2 restart
+nano /var/www/html/info.php
+wget http://downloads.ioncube.com/loader_downloads/ioncube_loaders_lin_x86.tar.gz
+tar zxvf ioncube_loaders_lin_x86.tar.gz
+mv ioncube /usr/local/
+php -v
+apt-get install pico
+nano /etc/php5/apache2/php.ini
+/etc/init.d/apache2 restart
+apt-get install curl
+sudo service apache2 restart
+sudo apt-get install php5-curl
+sudo service apache2 restart
+shutdown -r now
+shutdown -r now
+apt-get install torsocks
+shutdown -r now
+mysql -u root -p
+shutdown -r now
+shutdown -r now
+phpinfo();
+php -v
+apt-get update
+cd /var/www/html/market/
+ls
+unzip T*
+cd
+mysql -u root -p
+chown -R www-data:www-data /var/www/html/market
+chmod -R 755 /var/www/html/market
+chmod -R 755 /var/www/html/market/
+chown -R www-data:www-data /var/www/html/market
+chown -R www-data:www-data /var/www/html/market/
+rm -rf /var/www/html/market
+cd /var/www/html/market
+unzip Th*
+cd
+mysql -u root -p
+rm -rf /var/www/html/market
+rm -rf /var/www/html/ThemePortal
+apt-get update
+apt-get upgrade
+reboot
+rm -rf /var/www/html/market
+reboot
+cd /var/www/html/market
+wget http://wordpress.org/latest.tar.gz
+tar -xzvf latest.tar.gz
+mysql -u root -p
+chown -R www-data:www-data /var/www/html/marke
+chown -R www-data:www-data /var/www/html/market
+chown -R www-data:www-data /var/www/html/market/
+chmod -R 755 /var/www/html/market/
+chmod -R 755 /var/www/html/market
+mkdir /var/www/html/market/wp-content/uploads
+chown -R www-data:www-data /var/www/html/market/wp-content/uploads
+chown -R www-data:www-data /var/www/html/market/wp-content/uploadscd
+cd /var/www/html
+unzip theme*
+ls
+unzip themeportal.zip

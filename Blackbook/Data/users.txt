@@ -1,0 +1,26 @@
+user_id
+profile_page_id
+server_id	user_group_id
+status_id	view_id
+user_name
+full_name
+password	password_salt
+email
+gender
+birthday
+birthday_search
+country_iso
+language_id
+style_id	time_zone
+dst_check
+joined
+last_login
+last_activity
+user_image
+hide_tip	status
+footer_bar
+invite_user_id
+im_beep	im_hide	is_invisible
+total_spam
+last_ip_address
+feed_sort

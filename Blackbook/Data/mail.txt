@@ -1,0 +1,3 @@
+mail_id
+text
+text_parsed
